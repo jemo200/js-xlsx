@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 /* xlsx.js (C) 2013-2015 SheetJS -- http://sheetjs.com */
 /* uncomment the next line for encoding support */
 //importScripts('dist/cpexcel.js');
