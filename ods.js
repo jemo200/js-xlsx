@@ -76,7 +76,7 @@
           jszip = require('js' + 'zip');
         if (typeof jszip === 'undefined')
           jszip = require('./js' + 'zip').JSZip;
-        _fs = require('f' + 's');
+        //_fs = require('f' + 's');
       }
     }
     var attregexg = /\b[\w:-]+=["'][^"]*['"]/g;

@@ -1792,11 +1792,11 @@
       function read_date(blob, offset) {
         return new Date((((__readUInt32LE(blob, offset + 4) / 1e7) * Math.pow(2, 32) + __readUInt32LE(blob, offset) / 1e7) - 11644473600) * 1000);
       }
-      var fs;
+      //var fs;
       function readFileSync(filename, options) {
-        if (fs === undefined)
-          fs = require('fs');
-        return parse(fs.readFileSync(filename), options);
+        //if (fs === undefined)
+        //  fs = require('fs');
+        //return parse(fs.readFileSync(filename), options);
       }
       function readSync(blob, options) {
         switch (options !== undefined && options.type !== undefined ? options.type : "base64") {
@@ -1950,7 +1950,7 @@
           jszip = require('js' + 'zip');
         if (typeof jszip === 'undefined')
           jszip = require('./js' + 'zip').JSZip;
-        _fs = require('f' + 's');
+        //_fs = require('f' + 's');
       }
     }
     var attregexg = /([\w:]+)=((?:")([^"]*)(?:")|(?:')([^']*)(?:'))/g;
